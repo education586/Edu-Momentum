@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: mode === 'production' ? '/Edu-momentum/' : '/',
+    base: mode === 'production' ? '/Edu-Momentum/' : '/',
 
     plugins: [react(), tailwindcss()],
 
