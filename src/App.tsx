@@ -1114,7 +1114,7 @@ function StudentSupportPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
           
-            <SupportCard Icon={MapPin} title="Orientation" href="https://tan-occasional-flamingo-688.mypinata.cloud/ipfs/bafybeih6hwpovs2he6r24aymnc45ofncjftojgmtneweituzmxzxo2h6d4" />
+            <SupportCard Icon={MapPin} title="Orientation Slides" href="https://tan-occasional-flamingo-688.mypinata.cloud/ipfs/bafybeih6hwpovs2he6r24aymnc45ofncjftojgmtneweituzmxzxo2h6d4" />
             <SupportCard Icon={MapPin} title="Student Handbook" href="https://tan-occasional-flamingo-688.mypinata.cloud/ipfs/bafybeic4lqi5krmxjet4lunv2lal7hjg5bldf4mip5j5gwrttttqzpc2kq" />
            
             <SupportCard Icon={Heart} title="Counselling & Wellbeing" />
