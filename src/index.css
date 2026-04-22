@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  
+  --color-brand-primary: #334155;
+  --color-brand-accent: #64748b;
+  --color-brand-secondary: #94a3b8;
+  --color-brand-bg: #f8fafc;
+  --color-brand-border: #e2e8f0;
+  --color-brand-surface: #ffffff;
+  --color-text-main: #334155;
+  --color-text-muted: #64748b;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-text-main bg-brand-bg antialiased text-base;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  button {
+    @apply font-heading;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #334155 0%, #475569 100%);
+}
+
+.wave-divider {
+  @apply relative w-full overflow-hidden leading-none;
+}
+
+.wave-divider svg {
+  @apply relative block w-full fill-current;
+}

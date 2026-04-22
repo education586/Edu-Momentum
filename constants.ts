@@ -1,0 +1,237 @@
+import { Course } from './types';
+
+export const COURSES: Course[] = [
+{
+    id: "cpc30220",
+    code: "CPC30220",
+    title: "CPC30220 – Certificate III in Carpentry",
+    category: "QUALIFICATION",
+    image: "https://tan-occasional-flamingo-688.mypinata.cloud/ipfs/bafybeiaqqb3mxlo3mdbg2vpch2cbv6fgrhq2zoiuha6al7xmjbai6rvvya",
+    tuitionFees: "AUD $32,000",
+    description: "This is a trade qualification for carpenters in residential and commercial workplaces. It includes setting out, manufacturing, constructing, assembling, installing and repairing products made using timber and non-timber materials.\n\nOccupational titles may include:\n• Carpenter - Commercial\n• Carpenter - Formwork\n• Carpenter - Residential\n\nState and territory jurisdictions may have different licensing, legislative, regulatory or certification requirements. Relevant state and territory regulatory authorities should be consulted to confirm those requirements.\n\nCompletion of the general construction induction training program, specified in the Safe Work Australia model Code of Practice: Construction Work, is required by anyone carrying out construction work. Achievement of CPCWHS1001 Prepare to work safely in the construction industry meets this requirement.",
+    outcomes: "The qualification has core and elective unit of competency requirements that cover common skills for the construction industry, as well as a specialist field of work.",
+    deliveryMode: "Face to Face",
+    durationStructure: "104 weeks",
+    durationDetail: "(88 weeks tuition  + 16 weeks scheduled break)",
+    unitsCount: "34 units of competency",
+    unitsDetail: "(27 core units + 7 elective units)",
+    licensingOutcomes: "State and territory jurisdictions may have different licensing, legislative, regulatory or certification requirements. Relevant state and territory regulatory authorities should be consulted to confirm those requirements.",
+    additionalRequirements: "Completion of the general construction induction training program, specified in the Safe Work Australia model Code of Practice: Construction Work, is required by anyone carrying out construction work. Achievement of CPCWHS1001 Prepare to work safely in the construction industry meets this requirement.",
+    prerequisites: "",
+    rplProcess: "",
+    deliveryDetail: "The college uses a face-to-face (in class or virtual)7 delivery for this qualification. All in-class training through face-to-face delivery will take place at the college training facilities. The delivery of training and assessment— face-to-face (whether in class or virtual)—is structured with at least 20 scheduled course contact hours per week.",
+    deliveryNotes: [
+      "The college will not deliver more than one-third of the units (or equivalent) of any course by online or distance learning to an overseas student.",
+      "The college will ensure that in each compulsory study period for a course, the overseas student is studying at least one unit that is not by distance or online learning, unless the student is completing the last unit of their course."
+    ],
+    entryRequirements: [
+      "The College Entry Requirements:",
+      "(1) Successful completion of equivalent of Australian Year 12 and must be 18 years old and above",
+      "(2) A student is required to have their own laptop prior to the commencement of the course. The minimum requirements for the specification of laptops can be found in the \"Student Equipment required: Hardware requirements, and Software requirements\" section.",
+      "(3) Is required to successfully complete LLND test level 3.",
+      "English requirements:",
+      "(1) English requirement of a minimum of IELTS 6.0 or equivalent"
+    ],
+     
+    
+    nonTuitionFees: "$1000",
+    preEnrolmentInfo: "Prior to enrolment, it is a mandatory requirement for students to attend a Pre-Enrolment Consultation session to ensure students are fully aware of the required course information and can make an informed decision.",
+    equipmentRequired: "Students MUST have the following IT equipment prior to enrolling with the college and will require a suitable study space for self-study, assessment activities, or to participate in online live streaming.\n\nHardware Requirements:\n• Laptop: Processor 2.5–2.9 GHz, Memory 8 GB, Disk Space 100 GB\n• Microsoft Windows 10/11 or Apple macOS Sequoia/Sonoma/Ventura\n• Webcam (built-in or USB)\n• Audio input/output suitable for video conferencing\n• Headset or earbuds with microphone (recommended)\n• Camera/mobile phone for scanning handwritten materials\n\nSoftware Requirements:\n• Web browser: Microsoft Edge, Firefox, Google Chrome, or Safari\n• Microsoft Office 365 (Outlook, Teams, Word, Excel, PowerPoint, Planner)\n\nInternet Requirements:\n• Reliable high-speed broadband internet connection with sufficient upload and download capacity\n• Wi-Fi or mobile connection acceptable\n• Access to college wireless connection whilst on campus\n\nOther Skills Required:\n• Install and maintain internet browser and software updates\n• Connect to wireless networks at campus, library, or other locations\n• Use web camera and headset/microphone\n• Use cloud storage (e.g. Office 365 OneDrive)\n• Proficiency in Microsoft Word and related software packages",
+    
+    units: [
+      "CPCCWHS2001 | Apply WHS requirements, policies and procedures in the construction industry | Core",
+      "CPCCCA2002 | Use carpentry tools and equipment | Core",
+      "CPCCCA2011 | Handle carpentry materials | Core",
+      "CPCCCA3001 | Carry out general demolition of minor building structures | Core",
+      "CPCCCA3002 | Carry out setting out | Core",
+      "CPCCCA3003 | Install flooring systems | Core",
+      "CPCCCA3004 | Construct and erect wall frames | Core",
+      "CPCCCA3005 | Construct ceiling frames | Core",
+      "CPCCCA3006 | Erect roof trusses | Core",
+      "CPCCCA3007 | Construct pitched roofs | Core",
+      "CPCCCA3008 | Construct eaves | Core",
+      "CPCCCA3010 | Install windows and doors | Core",
+      "CPCCCA3016 | Construct, assemble and install timber external stairs | Core",
+      "CPCCCA3017 | Install exterior cladding | Core",
+      "CPCCCA3024 | Install lining, panelling and moulding | Core",
+      "CPCCCA3025 | Read and interpret plans, specifications and drawings for carpentry work | Core",
+      "CPCCCA3028 | Erect and dismantle formwork for footings and slabs on ground | Core",
+      "CPCCCM2006 | Apply basic levelling procedures | Core",
+      "CPCCCM2008 | Erect and dismantle restricted height scaffolding | Core",
+      "CPCCCM2012 | Work safely at heights | Core",
+      "CPCCCO2013 | Carry out concreting to simple forms | Core",
+      "CPCCOM1012 | Work effectively and sustainably in the construction industry | Core",
+      "CPCCOM1014 | Conduct workplace communication | Core",
+      "CPCCOM1015 | Carry out measurements and calculations | Core",
+      "CPCCOM3001 | Perform construction calculations to determine carpentry material requirements | Core",
+      "CPCCOM3006 | Carry out levelling operations | Core",
+      "CPCWHS3001 | Identify construction work hazards and select risk control strategies | Core",
+      "CPCCCA3012 | Frame and Fit Wet Area Fixtures | Elective",
+      "CPCCCA3014 | Construct and Install Bulkheads | Elective",
+      "CPCCCM2002 | Carry Out Hand Excavation | Elective",
+      "CPCCOM1013 | Plan and Organise Work | Elective",
+      "CPCCON3048 | Construct tilt panels on site | Elective",
+      "CPCCSF2004 | Place and fix reinforcement materials | Elective",
+      "CPCWHS1001 | Prepare to work safely in the construction industry | Elective"
+    ],
+    occupations: [
+      "Carpenter",
+      "Formwork Carpenter",
+      "Framing Carpenter",
+    
+      "Construction Worker",
+      "Carpentry Trades Assistant"
+    ]
+  },
+  {
+    id: "cpc30620",
+    code: "CPC30620",
+    title: "CPC30620 – Certificate III in Painting and Decorating",
+      category: "QUALIFICATION",
+    image: "https://tan-occasional-flamingo-688.mypinata.cloud/ipfs/bafybeie52u2mk7q2joktcymuvzf27675enberisck7axef5zwjhnoaqsxu",
+    tuitionFees: "$32,000",
+    description: "This qualification provides a trade outcome in painting and decorating for residential and commercial construction work.\n\nOccupational titles may include:\n• Painter and Decorator.\n\nLicensing, legislative and regulatory or certification requirements for painting and decorating work differ between States and Territories. Please consult with the relevant regulatory authority.\n\nCompletion of the general construction induction training program, specified in the Safe Work Australia model Code of Practice: Construction Work, is required by anyone carrying out construction work. Achievement of CPCWHS1001 Prepare to work safely in the construction industry meets this requirement.",
+    outcomes: "The qualification has core and elective unit of competency requirements that cover common skills for the construction industry, as well as a specialist field of work.",
+    deliveryMode: "Face to Face",
+    durationStructure: "104 weeks",
+    durationDetail: "(88 weeks tuition  + 16 weeks scheduled break)",
+    unitsCount: "29 units of competency",
+    unitsDetail: "(26 core units + 3 elective units)",
+    licensingOutcomes: "State and territory jurisdictions may have different licensing, legislative, regulatory or certification requirements. Relevant state and territory regulatory authorities should be consulted to confirm those requirements.",
+    additionalRequirements: "Completion of the general construction induction training program, specified in the Safe Work Australia model Code of Practice: Construction Work, is required by anyone carrying out construction work. Achievement of CPCWHS1001 Prepare to work safely in the construction industry meets this requirement.",
+    prerequisites: "",
+    rplProcess: "",
+    deliveryDetail: "The college uses a face-to-face (in class or virtual)7 delivery for this qualification. All in-class training through face-to-face delivery will take place at the college training facilities. The delivery of training and assessment— face-to-face (whether in class or virtual)—is structured with at least 20 scheduled course contact hours per week. ",
+    deliveryNotes: [
+      "The college will not deliver more than one-third of the units (or equivalent) of any course by online or distance learning to an overseas student.",
+      "The college will ensure that in each compulsory study period for a course, the overseas student is studying at least one unit that is not by distance or online learning, unless the student is completing the last unit of their course."
+    ],
+    entryRequirements: [
+      "The College Entry Requirements:",
+       "(1) Successful completion of equivalent of Australian Year 12 and must be 18 years old and above",
+      "(2) A student is required to have their own laptop prior to the commencement of the course. The minimum requirements for the specification of laptops can be found in the “Student Equipment required: Hardware requirements, and Software requirements” section.",
+      "(3) Is required to successfully complete LLND test level 3.",
+      "English requirements:",
+      "(1) English requirement of a minimum of IELTS 6.0 or equivalent"
+    ],
+     
+    
+    nonTuitionFees: "$1000",
+    preEnrolmentInfo: "Prior to enrolment, it is a mandatory requirement for students to attend a Pre-Enrolment Consultation session to ensure students are fully aware of the required course information and can make an informed decision.",
+    equipmentRequired: "Students MUST have the following IT equipment prior to enrolling with the college and will require a suitable study space for self-study, assessment activities, or to participate in online live streaming:\n\nHardware Requirements:\n• Laptop: Processor 2.5–2.9 GHz, Memory 8 GB, Disk Space 100 GB\n• Microsoft Windows 10/11 or Apple macOS Sequoia/Sonoma/Ventura\n• Webcam (built-in or USB)\n• Audio input/output suitable for video conferencing\n• Headset or earbuds with microphone (recommended)\n• Camera/mobile phone for scanning handwritten materials\n\nSoftware Requirements:\n• Web browser: Microsoft Edge, Firefox, Google Chrome, or Safari\n• Microsoft Office 365 (Outlook, Teams, Word, Excel, PowerPoint, Planner)\n\nInternet Requirements:\n• Reliable high-speed broadband internet connection with sufficient upload and download capacity\n• Wi-Fi or mobile connection acceptable\n• Access to college wireless connection whilst on campus\n\nOther Skills Required:\n• Install and maintain internet browser and software updates\n• Connect to wireless networks at campus, library, or other locations\n• Use web camera and headset/microphone\n• Use cloud storage (e.g. Office 365 OneDrive)\n• Proficiency in Microsoft Word and related software packages",
+    
+    units: [
+      "CPCCCM2008 | Erect and dismantle restricted height scaffolding | Core",
+      "CPCCCM2012 | Work safely at heights | Core",
+      "CPCCCM3001 | Operate elevated work platforms up to 11 metres | Core",
+      "CPCCCM3005 | Calculate costs of construction work | Core",
+      "CPCCOM1012 | Work effectively and sustainably in the construction industry | Core",
+      "CPCCOM1013 | Plan and organise work | Core",
+      "CPCCOM1014 | Conduct workplace communication | Core",
+      "CPCCOM1015 | Carry out measurements and calculations | Core",
+      "CPCCOM2001 | Read and interpret plans and specifications | Core",
+      "CPCCPB3026 | Erect and maintain trestle and plank systems | Core",
+      "CPCCPD2011 | Handle and store painting and decorating materials | Core",
+      "CPCCPD2012 | Use painting and decorating tools and equipment | Core",
+      "CPCCPD2013 | Remove and replace doors and door and window components | Core",
+      "CPCCPD3021 | Prepare existing coated surface for painting | Core",
+      "CPCCPD3022 | Apply paint by brush and roller | Core",
+      "CPCCPD3023 | Apply texture coat paint finishes by brush, roller and spray | Core",
+      "CPCCPD3024 | Apply paint by spray | Core",
+      "CPCCPD3025 | Match specific paint colours | Core",
+      "CPCCPD3026 | Apply stains and clear timber finishes | Core",
+      "CPCCPD3027 | Remove and apply wallpaper | Core",
+      "CPCCPD3028 | Apply decorative paint finishes | Core",
+      "CPCCPD3030 | Apply protective paint coating systems | Core",
+      "CPCCPD3031 | Work safely with lead-painted surfaces in the painting industry | Core",
+      "CPCCPD3035 | Prepare uncoated surfaces for painting | Core",
+      "CPCCPD3036 | Work safely to encapsulate non-friable asbestos in the painting industry | Core",
+      "CPCCWHS2001 | Apply WHS requirements, policies and procedures in the construction industry | Core",
+      "CPCCPD3029 | Remove graffiti and apply anti-graffiti coatings | Elective",
+      "CPCCSP3003 | Apply trowelled texture coat finishes | Elective",
+      "CPCWHS1001 | Prepare to work safely in the construction industry | Elective"
+    ],
+    occupations: [
+      "Painter and Decorator",
+      "Construction Painter",
+      "Maintenance Painter",
+      "Industrial Painter",
+      "Construction Worker",
+      "Painting Trades Assistant"
+    ]
+  },
+  {
+    id: "cpc50220",
+    code: "CPC50220",
+    title: "CPC50220 – Diploma of Building and Construction (Building)",
+    category: "QUALIFICATION",
+    image: "https://tan-occasional-flamingo-688.mypinata.cloud/ipfs/bafybeica5fe6myjz4lkbuirjql2xsy5qj4bf6c4jtftly44juaxrnrigze",
+    tuitionFees: "$31,000",
+    description: "This qualification reflects the role of building professionals who apply knowledge of structural principles, risk and financial management, estimating, preparing and administering building and construction contracts, selecting contractors, overseeing the work and its quality and managing construction work in building projects including residential and commercial with the following limitations:\n\n• Residential construction limited to National Construction Code Class 1 and 10 buildings to a maximum of 3 storeys.\n• Commercial construction limited to National Construction Code Class 2 to 9 buildings, Type C and B construction.\n\nOccupational titles may include:\n• Builder\n• General Foreperson\n• Building Inspector\n\nThe construction industry strongly affirms that training and assessment leading to recognition of skills must be undertaken in a real or very closely simulated workplace environment. To achieve this qualification, the candidate must have access to a live building and construction workplace to meet the requirements detailed in the Assessment Requirements of core unit CPCCBC4008 Supervise communication and administration processes for building and construction projects.\n\nCompletion of the general construction induction training program, specified in the Safe Work Australia model Code of Practice: Construction Work, is required by anyone carrying out construction work. Achievement of CPCWHS1001 Prepare to work safely in the construction industry meets this requirement.\n\nBuilder licensing varies across States and Territories and requirements additional to the attainment of this qualification may be required.",
+    outcomes: "The qualification has core and elective unit of competency requirements that cover common skills for the construction industry, as well as a specialist field of work.",
+    deliveryMode: "Face to Face",
+    durationStructure: "104 weeks",
+    durationDetail: "(88 weeks tuition  + 16 weeks scheduled break)",
+    unitsCount: "27 units of competency",
+    unitsDetail: "(24 core units + 3 elective units)",
+    licensingOutcomes: "State and territory jurisdictions may have different licensing, legislative, regulatory or certification requirements. Relevant state and territory regulatory authorities should be consulted to confirm those requirements.",
+    additionalRequirements: "Completion of the general construction induction training program, specified in the Safe Work Australia model Code of Practice: Construction Work, is required by anyone carrying out construction work. Achievement of CPCWHS1001 Prepare to work safely in the construction industry meets this requirement.",
+    prerequisites: "",
+    rplProcess: "",
+    deliveryDetail: "The college uses a face-to-face (in class or virtual)7 delivery for this qualification. All in-class training through face-to-face delivery will take place at the college training facilities. The delivery of training and assessment— face-to-face (whether in class or virtual)—is structured with at least 20 scheduled course contact hours per week. ",
+    deliveryNotes: [
+      "The college will not deliver more than one-third of the units (or equivalent) of any course by online or distance learning to an overseas student.",
+      "The college will ensure that in each compulsory study period for a course, the overseas student is studying at least one unit that is not by distance or online learning, unless the student is completing the last unit of their course."
+    ],
+ entryRequirements: [
+      "The College Entry Requirements:",
+       "(1) Successful completion of equivalent of Australian Year 12 and must be 18 years old and above",
+      "(2)  A student is required to have their own laptop prior to the commencement of the course. The minimum requirements for the specification of laptops can be found in the “Student Equipment required: Hardware requirements, and Software requirements” section.",
+      "(3) Is required to successfully complete LLND test level 4.",
+     
+    ],
+     
+    
+    nonTuitionFees: "$1000",
+    preEnrolmentInfo: "Prior to enrolment, it is a mandatory requirement for students to attend a Pre-Enrolment Consultation session to ensure students are fully aware of the required course information and can make an informed decision.",
+    equipmentRequired: "Students MUST have the following IT equipment prior to enrolling with the college and will require a suitable study space for self-study, assessment activities, or to participate in online live streaming.\n\nHardware Requirements:\n• Laptop: Processor 2.5–2.9 GHz, Memory 8 GB, Disk Space 100 GB\n• Microsoft Windows 10/11 or Apple macOS Sequoia/Sonoma/Ventura\n• Webcam (built-in or USB)\n• Audio input/output suitable for video conferencing\n• Headset or earbuds with microphone (recommended)\n• Camera/mobile phone for scanning handwritten materials\n\nSoftware Requirements:\n• Web browser: Microsoft Edge, Firefox, Google Chrome, or Safari\n• Microsoft Office 365 (Outlook, Teams, Word, Excel, PowerPoint, Planner)\n\nInternet Requirements:\n• Reliable high-speed broadband internet connection with sufficient upload and download capacity\n• Wi-Fi or mobile connection acceptable\n• Access to college wireless connection whilst on campus\n\nOther Skills Required:\n• Install and maintain internet browser and software updates\n• Connect to wireless networks at campus, library, or other locations\n• Use web camera and headset/microphone\n• Use cloud storage (e.g. Office 365 OneDrive)\n• Proficiency in Microsoft Word and related software packages",
+    
+    units: [
+      "BSBOPS504 | Manage business risk | Core",
+      "BSBWHS513 | Lead WHS risk management | Core",
+      "CPCCBC4001 | Apply building codes and standards to the construction process for Class 1 and 10 buildings | Core",
+      "CPCCBC4003 | Select, prepare and administer a construction contract | Core",
+      "CPCCBC4004 | Identify and produce estimated costs for building and construction projects | Core",
+      "CPCCBC4005 | Produce labour and material schedules for ordering | Core",
+      "CPCCBC4008 | Supervise site communication and administration processes for building and construction projects | Core",
+      "CPCCBC4009 | Apply legal requirements to building and construction projects | Core",
+      "CPCCBC4010 | Apply structural principles to residential and commercial constructions | Core",
+      "CPCCBC4012 | Read and interpret plans and specifications | Core",
+      "CPCCBC4013 | Prepare and evaluate tender documentation | Core",
+      "CPCCBC4014 | Prepare simple building sketches and drawings | Core",
+      "CPCCBC4018 | Apply site surveys and set-out procedures to building and construction projects | Core",
+      "CPCCBC4053 | Apply building codes and standards to the construction process for Class 2 to 9, Type C buildings | Core",
+      "CPCCBC5001 | Apply building codes and standards to the construction process for Type B construction | Core",
+      "CPCCBC5002 | Monitor costing systems on complex building and construction projects | Core",
+      "CPCCBC5003 | Supervise the planning of onsite building and construction work | Core",
+      "CPCCBC5005 | Select and manage building and construction contractors | Core",
+      "CPCCBC5007 | Administer the legal obligations of a building and construction contractor | Core",
+      "CPCCBC5010 | Manage construction work | Core",
+      "CPCCBC5011 | Manage environmental management practices and processes in building and construction | Core",
+      "CPCCBC5013 | Manage professional technical and legal reports on building and construction projects | Core",
+      "CPCCBC5018 | Apply structural principles to the construction of buildings up to 3 storeys | Core",
+      "CPCCBC5019 | Manage building and construction business finances | Core",
+      "BSBPMG532 | Manage project quality | Elective",
+      "CPCSUS5001 | Develop workplace policies and procedures for sustainability | Elective",
+      "CPCWHS1001 | Prepare to work safely in the construction industry | Elective"
+    ],
+    occupations: [
+      "Builder",
+      " Construction Manager",
+      " Site Manager",
+    
+      " Building Supervisor",
+      "Construction Project Manager"
+    ]
+  }
+];
