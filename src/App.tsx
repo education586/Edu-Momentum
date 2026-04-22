@@ -1395,7 +1395,7 @@ function ContactPage() {
 // --- Main App ---
 
 export default function App() {
-  const basename = import.meta.env.MODE === 'production' ? '/Edu-momentum' : '';
+  const basename = import.meta.env.MODE === 'production' ? '/Edu-Momentum' : '';
 
   return (
     <Router basename={basename}>
